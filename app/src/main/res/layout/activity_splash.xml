@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity"
+    android:background="@drawable/new_splash">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="512dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="184dp"
+        android:src="@drawable/splash2edit2" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="36dp"
+        android:text="Flappy Fish"
+        android:layout_marginRight="35dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="11dp"
+        android:layout_marginLeft="35dp"
+        android:textAlignment="center"
+        android:textColor="#ff6412"
+        android:textSize="34sp"
+        android:background="@drawable/txtbcground"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="504dp"
+        android:layout_marginRight="35dp"
+        android:paddingTop="6dp"
+        android:paddingBottom="9dp"
+        android:text="Swipe to Play"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+    
+    
+</RelativeLayout>
